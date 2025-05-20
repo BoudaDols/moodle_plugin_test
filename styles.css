@@ -1,0 +1,60 @@
+/* 
+ * Styles for the Hello Concordia plugin
+ */
+
+.helloconcordia-container {
+    margin: 16px 0;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #912338; /* Concordia maroon */
+    max-width: 100%;
+    overflow: hidden;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.helloconcordia-container.with-animation {
+    opacity: 0; /* Start with 0 opacity for fade-in effect */
+}
+
+.helloconcordia-heading {
+    margin: 0 0 8px 0;
+    color: #333;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.helloconcordia-message {
+    margin: 0;
+    color: #555;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.helloconcordia-message::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #FDBB30; /* Concordia gold */
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .helloconcordia-container {
+        padding: 16px;
+    }
+    
+    .helloconcordia-heading {
+        font-size: 1.2rem;
+    }
+    
+    .helloconcordia-message {
+        font-size: 1rem;
+    }
+}
