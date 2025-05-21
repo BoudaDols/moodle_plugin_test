@@ -28,11 +28,3 @@ The plugin offers several configuration options:
 ## Requirements
 
 - Moodle 4.1 or higher
-
-## License
-
-This plugin is licensed under the [GNU GPL v3 or later](http://www.gnu.org/copyleft/gpl.html).
-
-## Credits
-
-Developed for Concordia University.
